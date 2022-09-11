@@ -6,6 +6,7 @@
 
 ## Install
 
+
 pkg install x11-repo
 
 pkg update && pkg upgrade -y
@@ -17,16 +18,8 @@ git clone https://github.com/kenseiDash/My-Termux-Setup
 bash kensei-packages.sh
 
 
-
-
-
 ## Desktop Interface XFCE
 
-pkg install tigervnc
-
-pkg install xfce4-terminal
-
-pkg install xfce4
 
 vncserver
 
@@ -42,9 +35,6 @@ unset DBUS_SESSION_BUS_ADDRESS
 exec startxfce4
 
 chmod +x ~/.vnc/xstartup
-
-
-
 
 
 ## Startup
