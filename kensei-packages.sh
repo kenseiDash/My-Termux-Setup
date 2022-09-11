@@ -2,9 +2,9 @@
 
 #Get the necessary components
  
-apt install tigervnc
-apt install xfce4
-apt install xfce4-terminal
+apt install tigervnc -y
+apt install xfce4 -y
+apt install xfce4-terminal -y
 apt install nmap -y
 apt install fish -y
 apt install cowsay -y
