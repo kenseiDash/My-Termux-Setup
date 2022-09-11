@@ -9,9 +9,9 @@
 
 pkg install x11-repo
 
-pkg update && pkg upgrade -y
+pkg update && pkg upgrade
 
-pkg install git -y
+pkg install git
 
 git clone https://github.com/kenseiDash/My-Termux-Setup
 
