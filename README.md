@@ -12,8 +12,9 @@ pkg update && pkg upgrade -y
 
 pkg install git -y
 
- 
-bash
+git clone https://github.com/kenseiDash/My-Termux-Setup
+
+bash kensei-packages.sh
 
 
 
