@@ -3,6 +3,7 @@
 #Get the necessary components
  
 apt install tigervnc -y
+apt install xfce4 -y
 apt install xfce4-goodies -y
 apt install nmap -y
 apt install fish -y
